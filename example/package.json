@@ -1,0 +1,26 @@
+{
+  "name": "knex-laravel-developers-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A runnable Express and Knex API from the Knex for Laravel Developers tutorial",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "db:migrate": "knex migrate:latest",
+    "db:rollback": "knex migrate:rollback",
+    "db:seed": "knex seed:run",
+    "db:setup": "knex migrate:latest && knex seed:run",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "knex": "^3.3.0",
+    "mysql2": "^3.14.0",
+    "sqlite3": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
