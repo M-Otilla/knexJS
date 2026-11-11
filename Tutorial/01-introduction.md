@@ -32,8 +32,6 @@ The [example project](../example/) is a small Express API for users and posts. I
 5. [Database configuration and migrations](05-database.md)
 6. [Query builder patterns](06-queries.md)
 
-The [presenter script](07-server-js-knex-45-minute-script.md) follows the slide deck and includes a recording walkthrough.
-
 ## Prerequisites
 
 - Node.js 20 or newer and npm
